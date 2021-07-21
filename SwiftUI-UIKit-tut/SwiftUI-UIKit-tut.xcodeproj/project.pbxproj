@@ -15,6 +15,7 @@
 		A0D080B826A73F16001538FF /* SwiftUI_UIKit_tut.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0D080B626A73F16001538FF /* SwiftUI_UIKit_tut.xcdatamodeld */; };
 		A0D080C326A73F17001538FF /* SwiftUI_UIKit_tutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080C226A73F17001538FF /* SwiftUI_UIKit_tutTests.swift */; };
 		A0D080CE26A73F17001538FF /* SwiftUI_UIKit_tutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080CD26A73F17001538FF /* SwiftUI_UIKit_tutUITests.swift */; };
+		A0D080DD26A7AF2F001538FF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080DC26A7AF2E001538FF /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A0D080C926A73F17001538FF /* SwiftUI-UIKit-tutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-UIKit-tutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D080CD26A73F17001538FF /* SwiftUI_UIKit_tutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UIKit_tutUITests.swift; sourceTree = "<group>"; };
 		A0D080CF26A73F17001538FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D080DC26A7AF2E001538FF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		A0D080AA26A73F13001538FF /* SwiftUI-UIKit-tut */ = {
 			isa = PBXGroup;
 			children = (
+				A0D080DB26A7AF08001538FF /* PageView */,
 				A0D080AB26A73F13001538FF /* SwiftUI_UIKit_tutApp.swift */,
 				A0D080AD26A73F13001538FF /* ContentView.swift */,
 				A0D080AF26A73F16001538FF /* Assets.xcassets */,
@@ -134,6 +137,14 @@
 				A0D080CF26A73F17001538FF /* Info.plist */,
 			);
 			path = "SwiftUI-UIKit-tutUITests";
+			sourceTree = "<group>";
+		};
+		A0D080DB26A7AF08001538FF /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				A0D080DC26A7AF2E001538FF /* PageViewController.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0D080B526A73F16001538FF /* Persistence.swift in Sources */,
+				A0D080DD26A7AF2F001538FF /* PageViewController.swift in Sources */,
 				A0D080AE26A73F13001538FF /* ContentView.swift in Sources */,
 				A0D080B826A73F16001538FF /* SwiftUI_UIKit_tut.xcdatamodeld in Sources */,
 				A0D080AC26A73F13001538FF /* SwiftUI_UIKit_tutApp.swift in Sources */,
