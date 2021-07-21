@@ -23,6 +23,7 @@
 		A0D080EA26A7B976001538FF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080E926A7B976001538FF /* ModelData.swift */; };
 		A0D080EC26A7B9BA001538FF /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080EB26A7B9BA001538FF /* Hike.swift */; };
 		A0D080EE26A7BF21001538FF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080ED26A7BF21001538FF /* Profile.swift */; };
+		A0D080F026A7C3C1001538FF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080EF26A7C3C1001538FF /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		A0D080E926A7B976001538FF /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A0D080EB26A7B9BA001538FF /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		A0D080ED26A7BF21001538FF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A0D080EF26A7C3C1001538FF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				A0D080E026A7B652001538FF /* FeatureCard.swift */,
 				A0D080DC26A7AF2E001538FF /* PageViewController.swift */,
+				A0D080EF26A7C3C1001538FF /* PageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				A0D080B826A73F16001538FF /* SwiftUI_UIKit_tut.xcdatamodeld in Sources */,
 				A0D080EA26A7B976001538FF /* ModelData.swift in Sources */,
 				A0D080EC26A7B9BA001538FF /* Hike.swift in Sources */,
+				A0D080F026A7C3C1001538FF /* PageView.swift in Sources */,
 				A0D080AC26A73F13001538FF /* SwiftUI_UIKit_tutApp.swift in Sources */,
 				A0D080DF26A7B36D001538FF /* Landmark.swift in Sources */,
 			);
