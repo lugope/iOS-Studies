@@ -16,6 +16,13 @@
 		A0D080C326A73F17001538FF /* SwiftUI_UIKit_tutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080C226A73F17001538FF /* SwiftUI_UIKit_tutTests.swift */; };
 		A0D080CE26A73F17001538FF /* SwiftUI_UIKit_tutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080CD26A73F17001538FF /* SwiftUI_UIKit_tutUITests.swift */; };
 		A0D080DD26A7AF2F001538FF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080DC26A7AF2E001538FF /* PageViewController.swift */; };
+		A0D080DF26A7B36D001538FF /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080DE26A7B36D001538FF /* Landmark.swift */; };
+		A0D080E126A7B652001538FF /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080E026A7B652001538FF /* FeatureCard.swift */; };
+		A0D080E726A7B911001538FF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = A0D080E526A7B911001538FF /* landmarkData.json */; };
+		A0D080E826A7B911001538FF /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A0D080E626A7B911001538FF /* hikeData.json */; };
+		A0D080EA26A7B976001538FF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080E926A7B976001538FF /* ModelData.swift */; };
+		A0D080EC26A7B9BA001538FF /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080EB26A7B9BA001538FF /* Hike.swift */; };
+		A0D080EE26A7BF21001538FF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D080ED26A7BF21001538FF /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		A0D080CD26A73F17001538FF /* SwiftUI_UIKit_tutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UIKit_tutUITests.swift; sourceTree = "<group>"; };
 		A0D080CF26A73F17001538FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0D080DC26A7AF2E001538FF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		A0D080DE26A7B36D001538FF /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		A0D080E026A7B652001538FF /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		A0D080E526A7B911001538FF /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		A0D080E626A7B911001538FF /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		A0D080E926A7B976001538FF /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		A0D080EB26A7B9BA001538FF /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		A0D080ED26A7BF21001538FF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +115,11 @@
 		A0D080AA26A73F13001538FF /* SwiftUI-UIKit-tut */ = {
 			isa = PBXGroup;
 			children = (
-				A0D080DB26A7AF08001538FF /* PageView */,
-				A0D080AB26A73F13001538FF /* SwiftUI_UIKit_tutApp.swift */,
-				A0D080AD26A73F13001538FF /* ContentView.swift */,
+				A0D080E326A7B876001538FF /* Model */,
+				A0D080E226A7B7FB001538FF /* Views */,
+				A0D080E426A7B8DF001538FF /* Resources */,
 				A0D080AF26A73F16001538FF /* Assets.xcassets */,
+				A0D080AB26A73F13001538FF /* SwiftUI_UIKit_tutApp.swift */,
 				A0D080B426A73F16001538FF /* Persistence.swift */,
 				A0D080B926A73F16001538FF /* Info.plist */,
 				A0D080B626A73F16001538FF /* SwiftUI_UIKit_tut.xcdatamodeld */,
@@ -142,9 +157,39 @@
 		A0D080DB26A7AF08001538FF /* PageView */ = {
 			isa = PBXGroup;
 			children = (
+				A0D080E026A7B652001538FF /* FeatureCard.swift */,
 				A0D080DC26A7AF2E001538FF /* PageViewController.swift */,
 			);
 			path = PageView;
+			sourceTree = "<group>";
+		};
+		A0D080E226A7B7FB001538FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0D080AD26A73F13001538FF /* ContentView.swift */,
+				A0D080DB26A7AF08001538FF /* PageView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0D080E326A7B876001538FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0D080E926A7B976001538FF /* ModelData.swift */,
+				A0D080DE26A7B36D001538FF /* Landmark.swift */,
+				A0D080EB26A7B9BA001538FF /* Hike.swift */,
+				A0D080ED26A7BF21001538FF /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0D080E426A7B8DF001538FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0D080E626A7B911001538FF /* hikeData.json */,
+				A0D080E526A7B911001538FF /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D080E826A7B911001538FF /* hikeData.json in Resources */,
 				A0D080B326A73F16001538FF /* Preview Assets.xcassets in Resources */,
 				A0D080B026A73F16001538FF /* Assets.xcassets in Resources */,
+				A0D080E726A7B911001538FF /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +324,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0D080B526A73F16001538FF /* Persistence.swift in Sources */,
+				A0D080EE26A7BF21001538FF /* Profile.swift in Sources */,
 				A0D080DD26A7AF2F001538FF /* PageViewController.swift in Sources */,
+				A0D080E126A7B652001538FF /* FeatureCard.swift in Sources */,
 				A0D080AE26A73F13001538FF /* ContentView.swift in Sources */,
 				A0D080B826A73F16001538FF /* SwiftUI_UIKit_tut.xcdatamodeld in Sources */,
+				A0D080EA26A7B976001538FF /* ModelData.swift in Sources */,
+				A0D080EC26A7B9BA001538FF /* Hike.swift in Sources */,
 				A0D080AC26A73F13001538FF /* SwiftUI_UIKit_tutApp.swift in Sources */,
+				A0D080DF26A7B36D001538FF /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
