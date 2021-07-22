@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUI_UIKit_tutApp: App {
-    let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            PageView(pages: ModelData().features.map {
+                FeatureCard(landmark: $0)
+            })
         }
     }
 }

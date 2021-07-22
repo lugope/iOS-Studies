@@ -22,6 +22,6 @@ struct PageView_Previews: PreviewProvider {
                 FeatureCard(landmark: $0)
             }
         )
-        .aspectRatio(3 / 2, contentMode: .fit)
+        .aspectRatio(contentMode: .fit)
     }
 }
