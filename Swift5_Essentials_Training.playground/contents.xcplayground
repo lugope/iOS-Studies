@@ -3,5 +3,6 @@
     <pages>
         <page name='Ch2_KnowYourData'/>
         <page name='Ch3_WorkingWithCollections'/>
+        <page name='Ch4_ControlFlow'/>
     </pages>
 </playground>
