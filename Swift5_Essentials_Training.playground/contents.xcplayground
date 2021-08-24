@@ -4,5 +4,7 @@
         <page name='Ch2_KnowYourData'/>
         <page name='Ch3_WorkingWithCollections'/>
         <page name='Ch4_ControlFlow'/>
+        <page name='Ch5_Functions'/>
+        <page name='Challenges'/>
     </pages>
 </playground>

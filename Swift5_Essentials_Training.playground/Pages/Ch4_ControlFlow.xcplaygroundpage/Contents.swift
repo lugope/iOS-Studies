@@ -13,7 +13,7 @@ if currentHealth >= maxHealth {
 }
 
 
-//MARK : Using for-in loops
+//MARK: Using for-in loops
 let myString = "hello world"
 let testItems: [String] = ["item1", "item2", "item3"]
 let testDictionary: [String: Int] = ["a": 1, "b": 2, "c": 3]
