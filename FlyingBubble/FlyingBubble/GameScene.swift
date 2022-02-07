@@ -9,9 +9,18 @@ import SpriteKit
 import GameplayKit
 
 class GameScene: SKScene {
+    let player = SKSpriteNode(imageNamed: "bubble")
     
     override func didMove(to view: SKView) {
         //Method, which is called when your game scene is ready to run.
+        player.position = CGPoint(x: -400, y: 250)
+        addChild(player)
+        
+        //Adding Physics
+        physicsWorld.gravity = CGVector(dx: 0, dy: -5)
+        player.physicsBody = SKPhysicsBody(circleOfRadius: player.frame.width/2)
+//        player.physicsBody = SKPhysicsBody(texture: player.texture!, size: player.texture!.size())
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
