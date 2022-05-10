@@ -12,6 +12,7 @@
 		763F1F842823C798002A16AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763F1F832823C798002A16AB /* Preview Assets.xcassets */; };
 		763F1F8D2823C938002A16AB /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763F1F8C2823C938002A16AB /* CloudKit.framework */; };
 		763F1F8F2823CCB0002A16AB /* CloudKitTutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763F1F8E2823CCB0002A16AB /* CloudKitTutView.swift */; };
+		76C724CB2829292000C9296C /* CloudKitCRUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C724CA2829292000C9296C /* CloudKitCRUDView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		763F1F8A2823C90A002A16AB /* CloudKitTut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitTut.entitlements; sourceTree = "<group>"; };
 		763F1F8C2823C938002A16AB /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		763F1F8E2823CCB0002A16AB /* CloudKitTutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitTutView.swift; sourceTree = "<group>"; };
+		76C724CA2829292000C9296C /* CloudKitCRUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCRUDView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				763F1F8A2823C90A002A16AB /* CloudKitTut.entitlements */,
 				763F1F7C2823C794002A16AB /* CloudKitTutApp.swift */,
 				763F1F8E2823CCB0002A16AB /* CloudKitTutView.swift */,
+				76C724CA2829292000C9296C /* CloudKitCRUDView.swift */,
 				763F1F802823C798002A16AB /* Assets.xcassets */,
 				763F1F822823C798002A16AB /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C724CB2829292000C9296C /* CloudKitCRUDView.swift in Sources */,
 				763F1F8F2823CCB0002A16AB /* CloudKitTutView.swift in Sources */,
 				763F1F7D2823C794002A16AB /* CloudKitTutApp.swift in Sources */,
 			);
