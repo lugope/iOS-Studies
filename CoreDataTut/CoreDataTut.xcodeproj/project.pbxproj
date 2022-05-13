@@ -13,6 +13,7 @@
 		769451BE28213DE3002BE0C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769451BD28213DE3002BE0C4 /* Preview Assets.xcassets */; };
 		769451C628213E5D002BE0C4 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 769451C428213E5D002BE0C4 /* Bookworm.xcdatamodeld */; };
 		769451C828213EB6002BE0C4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769451C728213EB6002BE0C4 /* DataController.swift */; };
+		76EE774E282EAC620093EEED /* BookwormDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE774D282EAC620093EEED /* BookwormDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		769451BD28213DE3002BE0C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		769451C528213E5D002BE0C4 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		769451C728213EB6002BE0C4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		76EE774D282EAC620093EEED /* BookwormDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		769451B528213DDF002BE0C4 /* CoreDataTut */ = {
 			isa = PBXGroup;
 			children = (
+				76EE774C282EABC60093EEED /* Services */,
 				769451B628213DDF002BE0C4 /* CoreDataTutApp.swift */,
 				769451B828213DDF002BE0C4 /* ContentView.swift */,
 				769451BA28213DE3002BE0C4 /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				769451BD28213DE3002BE0C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76EE774C282EABC60093EEED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				76EE774D282EAC620093EEED /* BookwormDataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			files = (
 				769451B928213DDF002BE0C4 /* ContentView.swift in Sources */,
 				769451C828213EB6002BE0C4 /* DataController.swift in Sources */,
+				76EE774E282EAC620093EEED /* BookwormDataService.swift in Sources */,
 				769451C628213E5D002BE0C4 /* Bookworm.xcdatamodeld in Sources */,
 				769451B728213DDF002BE0C4 /* CoreDataTutApp.swift in Sources */,
 			);
@@ -275,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoreDataTut/Preview Content\"";
+				DEVELOPMENT_TEAM = D5E8A3898L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -303,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoreDataTut/Preview Content\"";
+				DEVELOPMENT_TEAM = D5E8A3898L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
