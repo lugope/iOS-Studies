@@ -1,3 +1,14 @@
+
+CoreDataTut.xcodeproj/project.xcworkspace/xcuserdata/lucaspereira.xcuserdatad/UserInterfaceState.xcuserstate
+UserInterfaceState.xcuserstate
+*.xcuserstate
+
+*.xcuserdatad
+*/xcuserdatad
+xcuserdatad/*
+
 *.DS_Store
 
 FlyingBubble/FlyingBubble.xcodeproj/project.xcworkspace/xcuserdata/lucaspereira.xcuserdatad/UserInterfaceState.xcuserstate
+
+
