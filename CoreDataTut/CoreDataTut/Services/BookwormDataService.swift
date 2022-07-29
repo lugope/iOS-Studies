@@ -21,7 +21,6 @@ class BookwormDataService {
             if let error = error {
                 print("Core Data failed to load: \(error.localizedDescription)")
             }
-            
         }
     }
 }
