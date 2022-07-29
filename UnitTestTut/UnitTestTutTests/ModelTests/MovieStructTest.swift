@@ -1,13 +1,15 @@
 //
-//  UnitTestTutUITests.swift
-//  UnitTestTutUITests
+//  MovieStructTest.swift
+//  UnitTestTutTests
 //
 //  Created by Lucas Pereira on 29/07/22.
 //
 
 import XCTest
 
-class UnitTestTutUITests: XCTestCase {
+@testable import UnitTestTut
+
+class MovieStructTest: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -21,21 +23,18 @@ class UnitTestTutUITests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testInit_MovieWithTitle() {
+        let testMovie = Movie(title: "Generic Blockbuster")
+        
+        XCTAssertNotNil(testMovie)
+        XCTAssertEqual(testMovie.title, "Generic Blockbuster")
     }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+    
+    func testInit_SetMovieTitleAndReleaseDate() {
+        let testMovie = Movie(title: "Zootopia", releaseDate: "1984")
+        
+        XCTAssertNotNil(testMovie)
+        XCTAssertEqual(testMovie.releaseDate, "1984")
     }
 }
