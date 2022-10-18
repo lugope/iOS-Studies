@@ -16,6 +16,8 @@
 		7605CE262893FCB4002BEAAE /* UnitTestTutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7605CE252893FCB4002BEAAE /* UnitTestTutTests.swift */; };
 		7605CE3F28940FA1002BEAAE /* MovieStructTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7605CE3E28940FA1002BEAAE /* MovieStructTest.swift */; };
 		7605CE41289410F3002BEAAE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7605CE40289410F3002BEAAE /* Movie.swift */; };
+		765945F32894175A0037753F /* MovieManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765945F22894175A0037753F /* MovieManagerTests.swift */; };
+		765945F5289417BB0037753F /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765945F4289417BB0037753F /* MovieManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		7605CE252893FCB4002BEAAE /* UnitTestTutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestTutTests.swift; sourceTree = "<group>"; };
 		7605CE3E28940FA1002BEAAE /* MovieStructTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStructTest.swift; sourceTree = "<group>"; };
 		7605CE40289410F3002BEAAE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		765945F22894175A0037753F /* MovieManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManagerTests.swift; sourceTree = "<group>"; };
+		765945F4289417BB0037753F /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				7605CE40289410F3002BEAAE /* Movie.swift */,
+				765945F4289417BB0037753F /* MovieManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				7605CE3E28940FA1002BEAAE /* MovieStructTest.swift */,
+				765945F22894175A0037753F /* MovieManagerTests.swift */,
 			);
 			path = ModelTests;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 			files = (
 				7605CE132893FCB3002BEAAE /* ViewController.swift in Sources */,
 				7605CE0F2893FCB3002BEAAE /* AppDelegate.swift in Sources */,
+				765945F5289417BB0037753F /* MovieManager.swift in Sources */,
 				7605CE41289410F3002BEAAE /* Movie.swift in Sources */,
 				7605CE112893FCB3002BEAAE /* SceneDelegate.swift in Sources */,
 			);
@@ -247,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765945F32894175A0037753F /* MovieManagerTests.swift in Sources */,
 				7605CE262893FCB4002BEAAE /* UnitTestTutTests.swift in Sources */,
 				7605CE3F28940FA1002BEAAE /* MovieStructTest.swift in Sources */,
 			);
